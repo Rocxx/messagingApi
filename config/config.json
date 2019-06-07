@@ -1,0 +1,43 @@
+{
+    "development": {
+        "config_id"             : "development",
+        "app_name"              : "my app",
+        "app_desc"              : "my app desc",
+        "node_port"             : 3000,
+        "json_indentation"      : 4,
+        "DB_HOST"               : "localhost",
+        "DB_USER"               : "root",
+        "DB_PASSWORD"           : "password",
+        "DB_PORT"               : "3306",
+        "DB_DATABASE"           : "testusers",
+        "REQUEST_FROM_URL"      : "http://localhost:4200"
+    },
+    "testing": {
+        "config_id" : "testing",
+        "database"  : "my-app-db-test"
+    },
+    "tables": {
+        "APP_COMPANY"   : "ev_companies",
+        "APP_DIVISION"  : "ev_divisions",
+        "APP_ENTITIES"  : "ev_entities",
+        "APP_SMS_CONFIG": "ev_sms_config",
+        "APP_SMS_SENDER": "ev_sms_senders",
+        "APP_SMS_SOURCE": "sms_sources",
+        "APP_SMS_VENDOR": "ev_sms_vendors",
+        "APP_SMS_LOGS"  : "ev_sms_que"
+    },
+    "staging": {
+        "config_id" : "staging",
+        "node_port" : 8080,
+        "database"  : "my-app-db-stag"
+    },
+    "production": {
+        "config_id"     : "production",
+        "node_port"     : 8080,
+        "DB_HOST"       : "localhost",
+        "DB_USER"       : "root",
+        "DB_PASSWORD"   : "password",
+        "DB_PORT"       : "3306",
+        "DB_DATABASE"   : "testusers"
+    }
+}
